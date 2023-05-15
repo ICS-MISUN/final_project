@@ -18,6 +18,7 @@ def changeName(oPath, nPath, oNames, cNames):
 
 path = 'C:/jhchoi/data_set/ImageEdit/data/training/label/TL_face_original_k/'
 nPath = 'C:/jhchoi/data_set/ImageEdit/data/training/label/TS_face_original_e/'
+
 try:
     if not os.path.exists(nPath):
         os.makedirs(nPath)
